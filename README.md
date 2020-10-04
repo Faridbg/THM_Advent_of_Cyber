@@ -1812,7 +1812,7 @@ main()
 
   <img src="https://github.com/Faridbg/THM_Advent_of_Cyber/blob/main/resources/images/Task_28_%233.png" style="zoom:150%;" />
 
-  *Finding filed injectable*
+  *Finding field injectable*
 
   ~~~bash
   $ python3 sqlmap.py -u http://10.10.29.192/register.php --data="log_email=hola&log_password=123&login_button=Login"
